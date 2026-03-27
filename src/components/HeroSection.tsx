@@ -10,8 +10,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between h-16">
         <a href="#" className="font-display text-2xl text-primary tracking-wide">REFLEX</a>
         <div className="hidden md:flex gap-8 font-body text-sm tracking-widest uppercase text-foreground/70">
-          {["Services", "Why Us", "Gallery", "FAQ"].map((s) => (
-            <a key={s} href={`#${s.toLowerCase().replace(" ", "-")}`} className="hover:text-primary transition-colors">{s}</a>
+          {["Menu", "Services", "Why Us", "Gallery", "FAQ"].map((s) => (
+            <a key={s} href={s === "Menu" ? "/menu" : `#${s.toLowerCase().replace(" ", "-")}`} className="hover:text-primary transition-colors">{s}</a>
           ))}
         </div>
         <a href="#contact" className="hidden md:inline-block bg-gold-gradient text-primary-foreground px-6 py-2 rounded text-sm font-semibold tracking-wider uppercase hover:opacity-90 transition-opacity">
@@ -25,8 +25,8 @@ const Navbar = () => {
       </div>
       {open && (
         <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-gold/10 px-4 pb-4 flex flex-col gap-3">
-          {["Services", "Why Us", "Gallery", "FAQ"].map((s) => (
-            <a key={s} href={`#${s.toLowerCase().replace(" ", "-")}`} onClick={() => setOpen(false)} className="text-sm tracking-widest uppercase text-foreground/70 hover:text-primary py-2">{s}</a>
+          {["Menu", "Services", "Why Us", "Gallery", "FAQ"].map((s) => (
+            <a key={s} href={s === "Menu" ? "/menu" : `#${s.toLowerCase().replace(" ", "-")}`} onClick={() => setOpen(false)} className="text-sm tracking-widest uppercase text-foreground/70 hover:text-primary py-2">{s}</a>
           ))}
           <a href="#contact" onClick={() => setOpen(false)} className="bg-gold-gradient text-primary-foreground px-6 py-2 rounded text-sm font-semibold tracking-wider uppercase text-center">Reserve Now</a>
         </div>
