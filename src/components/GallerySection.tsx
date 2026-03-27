@@ -7,6 +7,8 @@ import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
 import gallery7 from "@/assets/gallery-7.jpg";
 import gallery8 from "@/assets/gallery-8.jpg";
+import gallery9 from "@/assets/gallery-9.jpg";
+import gallery10 from "@/assets/gallery-10.jpg";
 
 const images = [
   { src: gallery1, alt: "Reflex Lounge & Bar exterior", label: "Our Space" },
@@ -17,6 +19,8 @@ const images = [
   { src: gallery6, alt: "Reflex Kitchen signage", label: "Our Menu" },
   { src: gallery7, alt: "Hearty pepper soup", label: "Pepper Soup" },
   { src: gallery8, alt: "Fresh fish selection", label: "Fresh Catch" },
+  { src: gallery9, alt: "Ofada Rice special", label: "Ofada Rice" },
+  { src: gallery10, alt: "Isiewu delicacy", label: "Isiewu" },
 ];
 
 const GallerySection = () => (
