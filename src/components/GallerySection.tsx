@@ -3,12 +3,20 @@ import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
+import gallery5 from "@/assets/gallery-5.jpg";
+import gallery6 from "@/assets/gallery-6.jpg";
+import gallery7 from "@/assets/gallery-7.jpg";
+import gallery8 from "@/assets/gallery-8.jpg";
 
 const images = [
-  { src: gallery1, alt: "Signature cocktails", label: "Cocktails" },
-  { src: gallery2, alt: "Grilled bush meat", label: "Kitchen" },
-  { src: gallery3, alt: "Live DJ entertainment", label: "Nightlife" },
-  { src: gallery4, alt: "VIP lounge seating", label: "VIP Lounge" },
+  { src: gallery1, alt: "Reflex Lounge & Bar exterior", label: "Our Space" },
+  { src: gallery2, alt: "Reflex Lounge & Bar front view", label: "The Lounge" },
+  { src: gallery3, alt: "Delicious vegetable soup", label: "Efo Riro" },
+  { src: gallery4, alt: "Grilled fish with fries", label: "Grilled Fish" },
+  { src: gallery5, alt: "Reflex Kitchen exterior", label: "The Kitchen" },
+  { src: gallery6, alt: "Reflex Kitchen signage", label: "Our Menu" },
+  { src: gallery7, alt: "Hearty pepper soup", label: "Pepper Soup" },
+  { src: gallery8, alt: "Fresh fish selection", label: "Fresh Catch" },
 ];
 
 const GallerySection = () => (
