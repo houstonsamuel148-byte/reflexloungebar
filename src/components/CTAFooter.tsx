@@ -32,9 +32,11 @@ const Footer = () => (
         <span className="font-display text-2xl text-primary">REFLEX</span>
         <p className="text-muted-foreground text-sm mt-1">Lounge & Bar · Osogbo, Osun</p>
       </div>
-      <div className="flex gap-6 text-muted-foreground text-sm">
+      <div className="flex gap-6 text-muted-foreground text-sm flex-wrap justify-center">
         <a href="https://reflexkitchen.com.ng" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Website</a>
         <a href="https://wa.me/2348026433322" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WhatsApp</a>
+        <a href="https://instagram.com/reflexlounge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
+        <a href="https://facebook.com/ReflexLounge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
         <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
       </div>
       <p className="text-muted-foreground text-xs">© {new Date().getFullYear()} Reflex Lounge & Bar. All rights reserved.</p>
