@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.jpeg";
 
 const CTASection = () => (
   <section className="section-padding bg-secondary/30 relative overflow-hidden">
