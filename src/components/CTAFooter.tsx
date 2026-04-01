@@ -30,7 +30,10 @@ const Footer = () => (
   <footer className="px-4 md:px-8 py-12 border-t border-border">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
       <div>
-        <span className="font-display text-2xl text-primary">REFLEX</span>
+        <div className="flex items-center gap-2">
+          <img src={logo} alt="Reflex Logo" className="w-8 h-8 rounded-full object-cover" />
+          <span className="font-display text-2xl text-primary">REFLEX</span>
+        </div>
         <p className="text-muted-foreground text-sm mt-1">Lounge & Bar · Osogbo, Osun</p>
       </div>
       <div className="flex gap-6 text-muted-foreground text-sm flex-wrap justify-center">

@@ -9,7 +9,10 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-gold/10">
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between h-16">
-        <a href="#" className="font-display text-2xl text-primary tracking-wide">REFLEX</a>
+        <a href="#" className="flex items-center gap-2">
+          <img src={logo} alt="Reflex Logo" className="w-8 h-8 rounded-full object-cover" />
+          <span className="font-display text-2xl text-primary tracking-wide">REFLEX</span>
+        </a>
         <div className="hidden md:flex gap-8 font-body text-sm tracking-widest uppercase text-foreground/70">
           {["Menu", "Services", "Why Us", "Gallery", "FAQ"].map((s) => (
             <a key={s} href={s === "Menu" ? "/menu" : `#${s.toLowerCase().replace(" ", "-")}`} className="hover:text-primary transition-colors">{s}</a>
