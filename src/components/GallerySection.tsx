@@ -6,23 +6,15 @@ import gallery4 from "@/assets/gallery-4.jpg";
 import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
 import gallery7 from "@/assets/gallery-7.jpg";
-import gallery8 from "@/assets/gallery-8.jpg";
-import gallery9 from "@/assets/gallery-9.jpg";
-import gallery10 from "@/assets/gallery-10.jpg";
-import gallery11 from "@/assets/gallery-11.jpg";
 
 const images = [
-  { src: gallery1, alt: "Reflex Lounge & Bar exterior", label: "Our Space" },
-  { src: gallery2, alt: "Reflex Lounge & Bar front view", label: "The Lounge" },
-  { src: gallery3, alt: "Delicious vegetable soup", label: "Efo Riro" },
-  { src: gallery4, alt: "Grilled fish with fries", label: "Grilled Fish" },
-  { src: gallery5, alt: "Reflex Kitchen exterior", label: "The Kitchen" },
-  { src: gallery6, alt: "Reflex Kitchen signage", label: "Our Menu" },
-  { src: gallery7, alt: "Hearty pepper soup", label: "Pepper Soup" },
-  { src: gallery8, alt: "Fresh fish selection", label: "Fresh Catch" },
-  { src: gallery9, alt: "Ofada Rice special", label: "Ofada Rice" },
-  { src: gallery10, alt: "Isiewu delicacy", label: "Isiewu" },
-  { src: gallery11, alt: "Reflex Lounge & Bar at night", label: "Reflex at Night" },
+  { src: gallery1, alt: "Reflex Lounge grills menu", label: "Our Grills" },
+  { src: gallery2, alt: "Reflex Lounge indoor seating", label: "Indoor Lounge" },
+  { src: gallery3, alt: "Reflex Lounge outdoor seating", label: "Outdoor Area" },
+  { src: gallery4, alt: "Reflex Lounge VIP area", label: "VIP Section" },
+  { src: gallery5, alt: "Reflex Lounge & Bar exterior at night", label: "Reflex at Night" },
+  { src: gallery6, alt: "Isiewu delicacy at Reflex", label: "Isiewu Special" },
+  { src: gallery7, alt: "Ofada Rice at Reflex Kitchen", label: "Ofada Rice" },
 ];
 
 const GallerySection = () => (
