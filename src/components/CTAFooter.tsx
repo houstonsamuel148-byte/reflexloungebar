@@ -36,7 +36,7 @@ const Footer = () => (
         <a href="https://reflexkitchen.com.ng" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Website</a>
         <a href="https://wa.me/2348026433322" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WhatsApp</a>
         <a href="https://instagram.com/reflexlounge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
-        <a href="https://facebook.com/ReflexLoungeOsogbo" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
+        <a href="https://www.facebook.com/share/18BaBz8qnx/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
         <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
       </div>
       <p className="text-muted-foreground text-xs">© {new Date().getFullYear()} Reflex Lounge & Bar. All rights reserved.</p>
