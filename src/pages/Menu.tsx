@@ -73,7 +73,7 @@ const popularDishes = [
   { name: "Pepper Soup", description: "Aromatic, spicy broth loaded with fresh fish or tender meat", emoji: "🍲" },
 ];
 
-const WHATSAPP_ORDER_URL = "https://wa.me/2348099314222?text=Hello%2C%20I%20want%20to%20order%20food%20from%20your%20menu";
+const WHATSAPP_ORDER_URL = "https://wa.me/2348099316222?text=Hello%2C%20I%20want%20to%20order%20food%20from%20your%20menu";
 
 const Menu = () => (
   <div className="min-h-screen bg-background">
