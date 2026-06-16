@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const WHATSAPP_ORDER_URL = "https://wa.me/2348099314222?text=Hello%2C%20I%20want%20to%20order%20food%20from%20your%20menu";
+const WHATSAPP_ORDER_URL = "https://wa.me/2348099316222?text=Hello%2C%20I%20want%20to%20order%20food%20from%20your%20menu";
 
 const FloatingWhatsApp = () => (
   <motion.a

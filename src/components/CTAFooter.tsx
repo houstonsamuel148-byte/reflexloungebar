@@ -17,7 +17,7 @@ const CTASection = () => (
           <a href="#contact" className="bg-gold-gradient text-primary-foreground px-10 py-4 rounded font-semibold tracking-wider uppercase text-sm hover:opacity-90 transition-opacity">
             Reserve a Table
           </a>
-          <a href="https://wa.me/2348026433322" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-10 py-4 rounded font-semibold tracking-wider uppercase text-sm hover:bg-primary/10 transition-colors">
+          <a href="https://wa.me/2348099316222" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary px-10 py-4 rounded font-semibold tracking-wider uppercase text-sm hover:bg-primary/10 transition-colors">
             Chat on WhatsApp
           </a>
         </div>
@@ -38,7 +38,7 @@ const Footer = () => (
       </div>
       <div className="flex gap-6 text-muted-foreground text-sm flex-wrap justify-center">
         <a href="https://reflexkitchen.com.ng" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Website</a>
-        <a href="https://wa.me/2348026433322" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WhatsApp</a>
+        <a href="https://wa.me/2348099316222" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WhatsApp</a>
         <a href="https://instagram.com/reflexlounge" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
         <a href="https://www.facebook.com/share/18BaBz8qnx/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
         <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
